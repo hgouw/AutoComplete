@@ -3,6 +3,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { MatAutocompleteModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { TextBoxComponent } from './text-box/text-box.component';
@@ -19,7 +20,8 @@ import { MatAutoCompleteComponent } from './mat-auto-complete/mat-auto-complete.
     BrowserModule,
     FormsModule,
     HttpModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatAutocompleteModule
   ],
   providers: [],
   bootstrap: [AppComponent]
