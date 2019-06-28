@@ -5,11 +5,13 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { TextBoxComponent } from './text-box/text-box.component';
 import { MatAutoCompleteComponent } from './mat-auto-complete/mat-auto-complete.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    TextBoxComponent,
     MatAutoCompleteComponent
   ],
   imports: [
