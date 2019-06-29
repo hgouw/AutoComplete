@@ -8,12 +8,14 @@ import { MatAutocompleteModule, MatInputModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { TextBoxComponent } from './text-box/text-box.component';
 import { SimpleAutoCompleteComponent } from './simple-auto-complete/simple-auto-complete.component';
+import { FilterAutoCompleteComponent } from './filter-auto-complete/filter-auto-complete.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TextBoxComponent,
-    SimpleAutoCompleteComponent
+    SimpleAutoCompleteComponent,
+    FilterAutoCompleteComponent
   ],
   imports: [
     BrowserAnimationsModule,
