@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MatAutoCompleteComponent } from './mat-auto-complete.component';
+import { SimpleAutoCompleteComponent } from './simple-auto-complete.component';
 
-describe('MatAutoCompleteComponent', () => {
-  let component: MatAutoCompleteComponent;
-  let fixture: ComponentFixture<MatAutoCompleteComponent>;
+describe('SimpleAutoCompleteComponent', () => {
+  let component: SimpleAutoCompleteComponent;
+  let fixture: ComponentFixture<SimpleAutoCompleteComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MatAutoCompleteComponent ]
+      declarations: [ SimpleAutoCompleteComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MatAutoCompleteComponent);
+    fixture = TestBed.createComponent(SimpleAutoCompleteComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -7,13 +7,13 @@ import { MatAutocompleteModule, MatInputModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { TextBoxComponent } from './text-box/text-box.component';
-import { MatAutoCompleteComponent } from './mat-auto-complete/mat-auto-complete.component';
+import { SimpleAutoCompleteComponent } from './simple-auto-complete/simple-auto-complete.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TextBoxComponent,
-    MatAutoCompleteComponent
+    SimpleAutoCompleteComponent
   ],
   imports: [
     BrowserAnimationsModule,
